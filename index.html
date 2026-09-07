@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Anshul Sadhale | The Internal First Workup</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap');
+
+  :root{
+    --bg:#FAFBFC;
+    --bg-alt:#F1F4F6;
+    --ink:#16232E;
+    --ink-dim:#5B6B78;
+    --clinical:#1B7A72;
+    --clinical-soft:#E4F3F1;
+    --clinical-deep:#0E4F49;
+    --line:#DFE5E9;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:640px; margin:0 auto; padding:0 24px;}
+
+  .tag{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:11.5px; letter-spacing:2px;
+    text-transform:uppercase; color:var(--clinical); font-weight:600; margin-bottom:18px;
+  }
+  .tag::before{content:''; width:16px; height:1px; background:var(--clinical);}
+
+  section{padding:52px 0; border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+
+  h1{
+    font-family:'Source Serif 4', serif; font-size:33px; font-weight:600;
+    letter-spacing:-0.3px; line-height:1.32; color:var(--ink); margin-bottom:20px;
+  }
+  h2{
+    font-family:'Source Serif 4', serif; font-size:27px; font-weight:600;
+    letter-spacing:-0.2px; line-height:1.35; color:var(--ink); margin-bottom:16px;
+  }
+  h3{font-family:'Source Serif 4', serif; font-size:20px; font-weight:600; color:var(--clinical-deep); margin-bottom:10px;}
+  p{color:var(--ink-dim); font-size:16px; margin-bottom:14px;}
+  strong{color:var(--ink); font-weight:600;}
+
+  .hero{padding-top:44px;}
+  .hero p.lede{font-size:17px; color:var(--ink); margin-bottom:26px;}
+
+  .btn{
+    display:block; text-align:center; text-decoration:none;
+    padding:16px 22px; font-weight:600; font-size:14.5px;
+    letter-spacing:0.3px; border-radius:5px;
+    background:var(--clinical); color:#fff; margin-top:6px;
+  }
+
+  .stat-row{
+    display:flex; gap:20px; margin-top:28px; padding-top:22px; border-top:1px solid var(--line);
+  }
+  .stat-row div{flex:1;}
+  .stat-row .num{font-family:'Source Serif 4', serif; font-size:22px; font-weight:600; color:var(--clinical-deep);}
+  .stat-row .label{font-size:12.5px; color:var(--ink-dim);}
+
+  .bullets{list-style:none; margin-top:8px;}
+  .bullets li{
+    display:flex; gap:14px; padding:16px 0; border-top:1px solid var(--line);
+    color:var(--ink); font-size:15.5px;
+  }
+  .bullets li:last-child{border-bottom:1px solid var(--line);}
+  .bullets li .mark{color:var(--clinical); font-weight:700; flex-shrink:0;}
+
+  .mechanism-box{
+    background:var(--clinical-soft); border:1px solid var(--line); border-radius:8px;
+    padding:26px 22px; margin-top:18px;
+  }
+  .mechanism-box .tag{margin-bottom:10px;}
+  .mechanism-box p{color:var(--ink); margin-bottom:12px;}
+  .mechanism-box p:last-child{margin-bottom:0;}
+
+  .case{
+    border:1px solid var(--line); background:var(--bg-alt); border-radius:8px;
+    padding:20px 20px 22px; margin-bottom:14px;
+  }
+  .case h4{font-family:'Source Serif 4', serif; font-size:18px; font-weight:600; color:var(--ink); margin-bottom:8px;}
+  .case p{font-size:14.5px; margin-bottom:0;}
+
+  .story p{color:var(--ink); font-size:16px;}
+
+  .cta-box{
+    background:var(--bg-alt); border:1px solid var(--line); border-radius:8px;
+    padding:24px 20px; margin-top:22px; text-align:center;
+  }
+  .cta-box p{color:var(--ink); margin-bottom:16px;}
+
+  .faq-item{padding:18px 0; border-top:1px solid var(--line);}
+  .faq-item:last-child{border-bottom:1px solid var(--line);}
+  .faq-item h4{font-family:'Source Serif 4', serif; font-size:16.5px; font-weight:600; color:var(--ink); margin-bottom:6px;}
+  .faq-item p{margin-bottom:0; font-size:14.5px;}
+
+  footer{padding:36px 0; text-align:center;}
+  footer p{font-size:12.5px; color:var(--ink-dim);}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="tag">Medical Doctor & Premium Health Coach</div>
+    <h1>You've been training for the mirror while ignoring what's happening inside.</h1>
+    <p class="lede">Most coaches train you for the mirror. I train you for what's actually happening inside first.</p>
+    <p class="lede" style="margin-top:-14px;">Blood markers, liver health, insulin resistance. When those move, body composition follows. That's The Internal First Workup, and it's why a client has reversed liver fibrosis, not just dropped weight.</p>
+    <a href="https://pages.razorpay.com/dranshulconsultation" class="btn">Book Your Consultation →</a>
+    <div class="stat-row">
+      <div><div class="num">21 kg</div><div class="label">Lost in 3 months, liver fibrosis to normal</div></div>
+      <div><div class="num">100+</div><div class="label">Clients coached during residency</div></div>
+    </div>
+  </section>
+
+  <!-- THIS IS FOR YOU IF -->
+  <section>
+    <div class="tag">This Is For You If</div>
+    <h2>Sound familiar?</h2>
+    <ul class="bullets">
+      <li><span class="mark">→</span>You've been training and eating "clean" but still carry belly fat and low muscle</li>
+      <li><span class="mark">→</span>You've followed generic fitness advice and never checked what's actually happening inside</li>
+      <li><span class="mark">→</span>You're a busy professional or student who doesn't have time for extreme diets or complicated plans</li>
+      <li><span class="mark">→</span>You care about how you look, but you also care about energy, blood work, and long-term health</li>
+      <li><span class="mark">→</span>You're tired of advice that treats fat loss as an aesthetic problem instead of a physiological one</li>
+    </ul>
+  </section>
+
+  <!-- MECHANISM -->
+  <section>
+    <div class="tag">Why This Works</div>
+    <h2>Most fitness advice starts with the mirror.</h2>
+    <p>Drop weight. Build muscle. Look better. The plan is built around what you can see, and the inside of the body is treated as secondary, if it's considered at all.</p>
+    <p>That's why so many people train consistently, eat "clean," and still stall. Or why the scale moves while energy, blood work, and long-term health stay the same. The plan was never built around the physiology. It was built around the reflection.</p>
+    <div class="mechanism-box">
+      <span class="tag" style="margin-bottom:8px;">The Method</span>
+      <h3>The Internal First Workup</h3>
+      <p>I'm a doctor. So the starting point is what's actually happening inside: blood markers, liver health, insulin resistance, recovery capacity. Once those are addressed with protein-first nutrition, structured training, and sustainable habits that fit real life, body composition follows as a downstream result, not the primary target.</p>
+      <p>You stop training for the mirror. You train for the system that produces the mirror.</p>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section>
+    <div class="tag">Real Outcomes</div>
+    <h2>This isn't about the scale.</h2>
+    <div class="case">
+      <h4>Liver fibrosis reversed</h4>
+      <p>One client lost 21 kg in three months. More important than the scale: liver fibrosis moved to normal. That's not a mirror result. That's an internal marker changing under the work.</p>
+    </div>
+    <div class="case">
+      <h4>Aditya, body recomposition after a prolonged deficit</h4>
+      <p>He had been stuck in long calorie deficits with little to show for it. Once the plan shifted to recomposition, built around what was actually happening inside rather than chasing the scale, he added muscle and strength.</p>
+    </div>
+    <div class="case">
+      <h4>Ayush, from zero gym experience to muscle gains on a vegetarian diet</h4>
+      <p>No prior training. Vegetarian constraints. Still built measurable muscle once protein, structure, and recovery were treated as non-negotiable.</p>
+    </div>
+
+    <div class="cta-box">
+      <p>You've seen the difference between training for the mirror and fixing what's actually happening inside. On the consultation we look at your current situation, markers if you have them, training, and nutrition, and decide whether The Internal First Workup is the right next step.</p>
+      <a href="https://pages.razorpay.com/dranshulconsultation" class="btn">Book the Consultation →</a>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="story">
+    <div class="tag">My Story</div>
+    <h2>I became a doctor at Goa Medical College.</h2>
+    <p>While I was still studying, I started coaching. Colony gym during COVID. Long hospital shifts. Final year and internship while running a growing practice. By the time I finished, I had already coached over 100 clients.</p>
+    <p>I don't prescribe what I haven't tested on myself first. Protein, training structure, recovery, blood work. Everything I use with clients has been run through my own body and my own schedule as a doctor.</p>
+    <p>That's why the work starts inside. I'm not guessing from fitness trends. I'm applying the same clinical lens I use in medicine to the people who come to me for body composition and health.</p>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="tag">Before You Book</div>
+    <h2>Questions worth asking.</h2>
+
+    <div class="faq-item">
+      <h4>Why does the consultation cost money when other coaches offer free calls?</h4>
+      <p>Because it's a real clinical-style assessment, not a sales pitch. We look at your current situation, markers if you have them, training, and nutrition, and decide whether the work is a fit. The fee keeps the call for people who are serious.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Do I need blood work already done before I book?</h4>
+      <p>No. If you have recent panels, we use them. If you don't, we talk about what to check and when. The consultation still works either way.</p>
+    </div>
+    <div class="faq-item">
+      <h4>I'm vegetarian. Does this actually work for me?</h4>
+      <p>Yes. Several clients, including ones who started with zero gym experience, have built muscle and improved body composition on vegetarian diets. Protein sources, portion structure, and recovery are adjusted to what you actually eat.</p>
+    </div>
+    <div class="faq-item">
+      <h4>I'm extremely busy. How much time does this actually require?</h4>
+      <p>The system is built around real schedules, hospital shifts, 9-5, studies. Training is usually 3-4 sessions a week. Nutrition is structured, not complicated. The point is sustainability under constraints, not adding another full-time job.</p>
+    </div>
+    <div class="faq-item">
+      <h4>I don't want to lose weight fast. I want to fix what's actually wrong. Is that what this is?</h4>
+      <p>Yes. Fast scale drops that ignore blood markers, recovery, and muscle are the opposite of the work. We start with what's happening inside. Body composition follows as a result, not the primary target.</p>
+    </div>
+    <div class="faq-item">
+      <h4>What if I don't have any specific health issues, just want to look and feel better?</h4>
+      <p>That's still the work. Most clients come in primarily for body composition. The internal focus is what makes the external changes last and keeps energy, recovery, and long-term health from being sacrificed along the way.</p>
+    </div>
+  </section>
+
+  <!-- CLOSING CTA -->
+  <section style="border-bottom:none;">
+    <h2>You've been training for the mirror while ignoring what's happening inside.</h2>
+    <p>If you're ready to reverse that, book the consultation. We'll look at the work together and decide what comes next.</p>
+    <a href="https://pages.razorpay.com/dranshulconsultation" class="btn">Book the Consultation →</a>
+  </section>
+
+  <footer>
+    <p>DR. ANSHUL SADHALE &middot; FIT WITH ANSHUL</p>
+  </footer>
+
+</div>
+</body>
+</html>
